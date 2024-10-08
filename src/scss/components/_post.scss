@@ -1,17 +1,17 @@
 
-.gallary-item {
+.post__item {
     flex-basis: calc((100% - 65px) / 2);
   }
-  .gallary-photo {
+  .post__photo {
     margin-bottom: 40px;
   }
-  .gallary-category {
+  .post__category {
     font-family: $font-family-secondary;
     font-weight: 300;
     color: $color-text-category;
     margin-bottom: 40px;
   }
-  .gallary-title {
+  .post__title {
     font-size: 30px;
     margin-bottom: 40px;
   }

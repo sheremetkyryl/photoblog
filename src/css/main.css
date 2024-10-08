@@ -54,12 +54,12 @@ body {
   padding-bottom: 66px;
 }
 
-.gallary-container {
+.gallary__container {
   display: flex;
   flex-direction: column;
 }
 
-.gallary-list {
+.grid {
   display: flex;
   flex-wrap: wrap;
   row-gap: 130px;
@@ -73,7 +73,7 @@ body {
   padding-bottom: 92px;
 }
 
-.menu-list {
+.menu__list {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,32 +81,32 @@ body {
   margin: 0 auto;
 }
 
-.menu-link:hover {
+.menu__link:hover {
   color: #03a9f4;
 }
 
-.gallary-item {
+.post__item {
   flex-basis: calc((100% - 65px) / 2);
 }
 
-.gallary-photo {
+.post__photo {
   margin-bottom: 40px;
 }
 
-.gallary-category {
+.post__category {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
-  color: #b4ad9e;
+  color: #94ad9e;
   margin-bottom: 40px;
 }
 
-.gallary-title {
+.post__title {
   font-size: 30px;
   margin-bottom: 40px;
 }
 
-.gallary-button {
-  font-family: "Playfair Display", serif;
+.button {
+  font-family: "playfair Display", serif;
   font-size: 14px;
   font-weight: 400;
   color: #626262;

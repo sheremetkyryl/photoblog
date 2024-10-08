@@ -2,13 +2,13 @@
     padding-top: 71px;
     padding-bottom: 92px;
   }
-  .menu-list {
+  .menu__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 555px;
     margin: 0 auto;
   }
-  .menu-link:hover {
+  .menu__link:hover {
     color: $color-text-hover;
   }

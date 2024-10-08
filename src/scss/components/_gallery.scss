@@ -1,12 +1,12 @@
 .gallary {
     padding-bottom: 66px;
   }
-  .gallary-container {
+  .gallary__container {
     display: flex;
     flex-direction: column;
   }
   
-  .gallary-list {
+  .grid {
     display: flex;
     flex-wrap: wrap;
     row-gap: 130px;
